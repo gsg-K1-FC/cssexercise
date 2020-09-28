@@ -1,0 +1,50 @@
+.sectioncss
+{
+width: 1300px;
+height: 470px;
+
+}
+p
+{
+  padding:30px;  
+}
+
+img
+{
+  width:600px;
+  height: 250px;
+  padding-right: 30px;
+}
+#section1
+{
+    background-color: #DFE6E9;
+}
+#section2
+{
+    background-color: #30336B;
+}
+*
+{
+    font-family: sans-serif;
+}
+.sectioncss h2:hover
+{
+    font-style: italic;
+}
+
+#section1 p::first-letter
+{
+
+    background-color: black;
+    color:white;
+}
+#section2 p::first-letter
+{
+
+    background-color:white;
+}
+ p::after
+ {
+     content:"Read More >> ";
+     color: blue;
+ }
